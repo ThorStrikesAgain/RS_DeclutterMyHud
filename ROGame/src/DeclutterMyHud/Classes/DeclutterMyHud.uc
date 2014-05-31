@@ -10,7 +10,7 @@ function PostBeginPlay()
 	// Inheritance.
 	super.PostBeginPlay();
     
-	`log("DeclutterMyHud 1.3 is active!!!",, 'DeclutterMyHud');
+	`log("DeclutterMyHud Started!",, 'DeclutterMyHud');
 	mProcessor = Spawn(class'DeclutterMyHud.ClientProcessor');
 }
 
